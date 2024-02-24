@@ -512,6 +512,7 @@
 	.hcinner{
 		position: relative;
 		max-height: none;
+		height:20px;
 	}
 	.sfContent{
 		padding-left: 25px;

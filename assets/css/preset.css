@@ -93,7 +93,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .subTitle{
     font-weight: 500;
     font-size: 18px;
-    line-height: .9;
+    line-height: 2;
     color: var(--theme-color);
     margin: 0 0 24px;
 }
@@ -137,7 +137,7 @@ input[type="number"]::-webkit-inner-spin-button {
     height: 60px;
     border: none;
     background: linear-gradient(90deg, rgba(237,28,36,1) 0%, rgba(237,82,28,1) 100%);
-    border-radius: 50px;
+    border-radius: 20px;
     padding: 0 36px;
     text-align: center;
     display: inline-block;
@@ -535,8 +535,8 @@ input[type="number"]::-webkit-inner-spin-button {
     font-weight: 700;
     color: aliceblue;
     display: inline-block;
-    transition: all 0.5s;
-    animation: animate 2s infinite;
+    /* transition: all 0.5s; */
+    /* animation: animate 2s infinite; */
 }
 .loaderO span:nth-child(1) {
     animation-delay: 0.1s;

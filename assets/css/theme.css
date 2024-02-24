@@ -190,7 +190,8 @@
     right: auto;
 }
 .mainMenu ul li.menu-item-has-children > a:after{
-    content: "\f043";
+    /* change > design */
+    /* content: "\f043"; */
     font-family: 'themewar' !important;
     display: inline-block;
     letter-spacing: 0;
@@ -686,7 +687,7 @@ header .menuToggler{
 }
 .client-slider.owl-carousel a img {
     height: auto;
-    width: 114px;
+    width: 200px;
 }
 
 /*--- Icon Box 01 ---*/
@@ -1376,7 +1377,7 @@ input[type="checkbox"]:checked ~ span:before {
 .funfactArea{
     position: absolute;
     left: 0;
-    top: -160px;
+    top: -90px;
     width: 66%;
     background: #fff;
     border: 10px solid var(--theme-color);
@@ -1987,15 +1988,16 @@ input[type="checkbox"]:checked ~ span:before {
     border-radius: 50%;
     background: var(--theme-color);
     padding: 10px;
-    margin-top: 8px;
+    margin-top: 38px;
 }
 .orcta:after{
     width: 9px;
-    height: 180px;
+    height: 170px;
     background: var(--theme-color);
     left: 0;
     right: 0;
-    top: -50px;
+    top: -45px;
+    
     margin: auto;
     content: '';
     z-index: -1;
@@ -2133,16 +2135,17 @@ input[type="checkbox"]:checked ~ span:before {
 /*--- Footer ---*/
 .footer_01{
     position: relative;
-    background: url(../images/bg/6.jpg) no-repeat center center / cover;
+    background: url(../images/bg/6.jpg) no-repeat center center / cover ;
     /* padding: 1px 0 8px; */
    /* margin-top: -20PX; */
+   
   
 }
 .footer_01 .secTitle{
     color: #fff;
     font-size: 30px;
     line-height: 40px;
-    margin: -7px 0 0;
+    margin: -17px 0 0;
 }
 /*--- Mailchimp ---*/
 .SubsrcribeForm,
@@ -2233,10 +2236,10 @@ input[type="checkbox"]:checked ~ span:before {
 }
 .aboutWidget h5{
     font-size: 22px;
-    line-height: 30px;
+    line-height: 10px;
     color: #fff;
     font-weight: 600;
-    margin: 0 0 29px;
+    margin: 10px 0 29px;
 }
 .phone{
     display: flex;
@@ -2526,14 +2529,15 @@ input[type="checkbox"]:checked ~ span:before {
     width: 60px;
     height: 60px;
 
-    background: #ffdedf;
+    /* background: #ffdedf; */
     border-radius: 50%;
     text-align: center;
     line-height: 60px;
     color: var(--theme-color);
     font-size: 16px;
-    margin: -1px;
+    margin: -2px;
     margin-right: 6px;
+    
 }
 .abSocial a:hover{
     background: var(--theme-color);
@@ -2541,11 +2545,11 @@ input[type="checkbox"]:checked ~ span:before {
 }
 .footer_02 .fdivider{
     border-top: 2px solid #e2e2e2;
-    margin: 106px 0 35px;
+    margin: 1060px 0 35px;
 }
 .copyText{
     font-size: 18px;
-    color: #1a1a1a;
+    color: red;
     margin: 0;
 }
 .footer_02 .copyMenu ul li{
@@ -3822,7 +3826,8 @@ input[type="checkbox"]:checked ~ span:before {
 .icon_box_09{
     position: relative;
     background: url(../images/bg/15.png) no-repeat right top #fff;
-    padding: 30px 40px 37px;
+    padding: 10px 10px 30px;
+    height: 580px;
     margin: 0 0 30px;
     -webkit-transition: all .4s ease;
     -o-transition: all .3s ease;
@@ -3910,7 +3915,7 @@ input[type="checkbox"]:checked ~ span:before {
     font-size: 24px;
     line-height: 28px;
     font-weight: 600;
-    margin: 35px 0 12px;
+    margin: 15px 0 12px;
 }
 .icon_box_09 h3 a{
     color: inherit;
@@ -4131,9 +4136,9 @@ input[type="checkbox"]:checked ~ span:before {
 }
 .chsItem p{
     font-size: 16px;
-    line-height: 26px;
+    line-height: 16px;
     color: #fff;
-    margin: 24px 0 0;
+    margin: 14px 0 0;
 }
 .chooseSlider.owl-carousel .owl-nav{
     position: absolute;
@@ -4447,7 +4452,7 @@ input[type="checkbox"]:checked ~ span:before {
     bottom: 0;
     margin: auto;
     max-width: 400px;
-    max-height: 228px;
+    max-height: 150px;
     background: #fff;
     padding: 32px 40px;
     -webkit-box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.04);
@@ -4497,7 +4502,7 @@ input[type="checkbox"]:checked ~ span:before {
 .reverse .hcinner{
     left: 0;
     right: auto;
-    text-align: left;
+    text-align: center;
 }
 
 /*------------------------------------------------------
@@ -4505,7 +4510,8 @@ input[type="checkbox"]:checked ~ span:before {
 /------------------------------------------------------*/
 .singleServicePage{
     position: relative;
-    padding: 120px 0;
+    padding: 50px 0;
+    /* change headcontact evet.html pagaes  */
 }
 .ssThumb{
     position: relative;
@@ -4556,28 +4562,28 @@ input[type="checkbox"]:checked ~ span:before {
     right: 0;
     bottom: 0;
     margin: auto;
-    width: calc(100% - 60px);
-    height: calc(100% - 60px);
-    content: '';
-    background: linear-gradient(90deg, rgba(237,28,36,1) 0%, rgba(237,82,28,1) 100%);
-    opacity: 0;
-    transform: scale(.5);
-    -moz-transform: scale(.5);
-    -webkit-transform: scale(.5);
-    -webkit-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
+    /* width: calc(100% - 60px); */
+    /* height: calc(100% - 60px); */
+    /* content: ''; */
+    /* background: linear-gradient(90deg, rgba(237,28,36,1) 0%, rgba(237,82,28,1) 100%); */
+    /* opacity: 0; */
+    /* transform: scale(.5); */
+    /* -moz-transform: scale(.5); */
+    /* -webkit-transform: scale(.5); */
+    /* -webkit-transition: all .3s ease; */
+    /* -o-transition: all .3s ease; */
+    /* transition: all .3s ease; */
 }
 .serviceITem a{
-    display: inline-block;
-    width: 80px;
-    height: 80px;
-    background: #fff;
-    color: var(--theme-color);
+    /* display: inline-block; */
+    /* width: 80px;
+    height: 80px; */
+    /* background: #fff; */
+    /* color: var(--theme-color); */
     font-size: 24px;
     font-weight: 500;
     line-height: 80px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     text-align: center;
     position: absolute;
     z-index: 2;
@@ -4596,17 +4602,17 @@ input[type="checkbox"]:checked ~ span:before {
     transition: all .5s ease;
 }
 .serviceITem:hover:after{
-    opacity: .75;
+    /* opacity: .75;
     transform: scale(1);
     -moz-transform: scale(1);
-    -webkit-transform: scale(1);
+    -webkit-transform: scale(1); */
 }
 .serviceITem:hover a{
     visibility: visible;
-    opacity: 1;
+    /* opacity: 1;
     transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
-    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0); */
 }
 
 /*------------------------------------------------------
@@ -4785,8 +4791,9 @@ input[type="checkbox"]:checked ~ span:before {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 600px;
+    height: 100%;
     line-height: .8;
+    
 }
 .iframe_map.grayscale iframe{
     -webkit-filter: grayscale(100%); 
