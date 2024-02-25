@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Poppins', sans-serif;
 }
 :root{
-    --theme-color: #ed1b24;
+    --theme-color:  #f89733;
 }
 a{
     color: #1a1a1a;
@@ -136,7 +136,7 @@ input[type="number"]::-webkit-inner-spin-button {
     overflow: hidden;
     height: 60px;
     border: none;
-    background: linear-gradient(90deg, rgba(237,28,36,1) 0%, rgba(237,82,28,1) 100%);
+    background: linear-gradient(90deg, rgba(237, 153, 28, 0.751) 0%, rgba(237,82,28,1) 100%);
     border-radius: 20px;
     padding: 0 36px;
     text-align: center;

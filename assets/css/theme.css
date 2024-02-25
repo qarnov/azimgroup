@@ -41,7 +41,7 @@
     width: 66%;
     height: 50px;
     content: '';
-    background: var(--theme-color);
+    background:#f89733;
 }
 .header01:before{
     position: absolute;
@@ -1266,7 +1266,7 @@ input[type="checkbox"]:checked ~ span:before {
     color: var(--theme-color);
 }
 .input-field input.reqError, .input-field .reqError {
-    border: 1px solid #f00;
+    border: 1px solid  #f89733;
 }
 .con_message {
     display: block;
@@ -1329,7 +1329,7 @@ input[type="checkbox"]:checked ~ span:before {
 .quAccordion .card .card-header h2 button span {
     width: 35px;
     height: 35px;
-    background: linear-gradient(90deg, rgba(237,28,36,1) 0%, rgba(237,82,28,1) 100%);
+    background: linear-gradient(90deg, rgb(237, 136, 28) 0%, rgba(237,82,28,1) 100%);
     position: relative;
     text-align: center;
     display: inline-block;
@@ -1832,7 +1832,7 @@ input[type="checkbox"]:checked ~ span:before {
     bottom: 0;
     margin: auto;
     content: '';
-    background: linear-gradient(90deg, rgba(237,28,36,1) 0%, rgba(237,82,28,1) 100%);
+    background: linear-gradient(90deg, rgba(237, 213, 28, 0.824) 0%, rgba(237,82,28,1) 100%);
     border-radius: 50%;
     z-index: -1;
     width: 100%;
@@ -4111,7 +4111,7 @@ input[type="checkbox"]:checked ~ span:before {
     left: 0;
     bottom: 34px;
     z-index: 2;
-    background: linear-gradient(90deg, rgba(237,28,36,1) 0%, rgba(237,82,28,1) 100%);
+    background: linear-gradient(90deg, rgb(237, 157, 28) 0%, rgba(237,82,28,1) 100%);
     padding: 45px 45px 42px;
     width: 279px;
     border-radius: 50px 0;
